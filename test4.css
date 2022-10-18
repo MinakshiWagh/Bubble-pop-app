@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#back {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 241, 161);
+}
+#box{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+}
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(80, 189, 80);
+}
+.part {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.part .scorebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(80, 189, 80);
+    border-radius: 5px;
+    border: 2px solid rgb(161, 241, 161) ;
+    margin-left: 20px;
+    /* width: 45px; */
+    padding: 0 13px;
+    height: 45px;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 18px 18px;
+    width: 100%;
+    height: 80%;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-right: 10px;
+    width: 47px;
+    height: 47px;
+   border-radius: 50%;
+    background-color:rgb(80, 189, 80);
+}
+#change {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:rgb(105, 189, 105); 
+}
+#change1 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    color:rgb(105, 189, 105); 
+
+}
